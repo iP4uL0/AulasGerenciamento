@@ -1,0 +1,22 @@
+
+
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+form{
+    display: flex
+    
+}
+    
+
+
+
+input{
+    border: 4px black;
+    border-radius: 3px;
+}
