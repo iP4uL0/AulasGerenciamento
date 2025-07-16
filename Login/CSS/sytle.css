@@ -1,0 +1,62 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:purple;
+    height: 100vh;
+    margin: 0;
+}
+
+form{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    flex-direction: column;
+    column-gap: 0px;
+    width: 300px;
+    height: 300px;
+
+    
+    
+}
+    
+input[type = "text"], input[type = "password"]{
+    border: solid 2px black;
+    width: 100%;
+    padding:8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+
+}
+h1, h2{
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+#botao{
+    width: 100%;
+    padding: 10px;
+    background-color: greenyellow;
+    border: solid black;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+#botao:hover{
+    background-color: aqua;
+    
+}
