@@ -13,16 +13,22 @@
 <form action="#" method="post">
     <label for="user">User:</label>
     <input id = "user" type="text" placeholder="Coloque seu ususario aqui.."><br>
-
-    <label for="user">password:</label>
-    <input id = "password" type="password" placeholder="Insira sua senha.."><br>
-    
-    <label for="user">Name:</label>
-    <input id = "user" type="text" placeholder="Coloque seu nome aqui.."><br>
-
-    <label for="user">Email:</label>
+    <label for="email">Email:</label>
     <input id = "email" type="text" placeholder="Insira seu email.."><br>
 
-<button id="botaoRegistro">Entrar</button>
+    <label for="user">Senha:</label>
+    <input id = "password" type="password" placeholder="Insira sua senha.." pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+    title="Senha deve conter 8 caracteres, incluindo maiúsculas, minúsculas, números e símbolos"
+    ><br>
+    
+    <label for="confSenha">Confirmar Senha:</label>
+    <input id = "user" type="password" placeholder="confirme sua senha.."  
+     pattern="^(?=.*[A-Za-z])(?=.*\d)[A\-Za-z\d]{8,}$"
+    title="Senha deve conter 8 caracteres, incluindo maiúsculas, minúsculas, números e símbolos"><br>
+
+
+    <button id="botaoRegistro">Entrar</button>
+
+    <a href="../../Login/HTML/index.html">Já tenho conta</a>
 </body>
 </html>
